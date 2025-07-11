@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Theek Karo - Home Services</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://i.imgur.com/3Mjl5VQ.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+    }
+    .services {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services h2 {
+      margin-bottom: 20px;
+    }
+    .service {
+      display: inline-block;
+      width: 220px;
+      margin: 10px;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .contact {
+      background-color: #f1f1f1;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contact form input,
+    .contact form textarea {
+      padding: 10px;
+      width: 80%;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Theek Karo</h1>
+    <p>Fast & Trusted Home Services at Your Doorstep</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Book Trusted Experts at Home</h1>
+    <p>Electrician, Plumber, Cleaning, Repair & More</p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>🔌 Electrician</h3>
+      <p>All electric repair & installation services</p>
+    </div>
+    <div class="service">
+      <h3>🚿 Plumber</h3>
+      <p>Leakage, pipes, taps – fully fixed</p>
+    </div>
+    <div class="service">
+      <h3>🪚 Carpenter</h3>
+      <p>Furniture repair, fittings & wood work</p>
+    </div>
+    <div class="service">
+      <h3>🛵 Bike Repair</h3>
+      <p>2-wheeler repair at your doorstep</p>
+    </div>
+    <div class="service">
+      <h3>🚗 Car Repair</h3>
+      <p>Battery, engine, AC & general servicing</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea rows="4" placeholder="Your Message"></textarea><br>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Theek Karo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
